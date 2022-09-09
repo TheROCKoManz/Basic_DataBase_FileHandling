@@ -189,8 +189,9 @@ void driver()
                 cout<<"\n\n\t**************** xxxxxxxx ****************\n";
                 getch();
                 break;
-            case 0: system("cls"); 
-            cout<<"\n\n\nChanges Saved..."<<endl<<endl<<endl<<endl; save(); return;
+            case 0:  
+            	cout<<"\n\n\nChanges Saved..."<<endl<<endl<<endl<<endl; save(); getch(); 
+		system("cls"); return;
         }
     }
 }
